@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    align-items: center;
+    width: 85%;
+}
+.logo{
+    width: 160px;
+}
+.link{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.a:hover{
+    color: brown;
+}
+.title{
+   margin-top: 10%;
+   margin-left: 8%;
+}
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#lastname{
+    color: rgb(173, 131, 75);
+}
+.download{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 2s;
+}
+.images:hover #shape{
+bottom: 70px;
+}
+.images:hover #girl{
+        left: 40%;
+}
+#about{
+    margin: 16% 8% 0 8%;
+}
+.heading{
+text-align: center;
+}
+.heading h2{
+    font-size: 30px;
+}
+.heading span{
+    font-size: 20px;
+    color: green;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.about_image img{
+width: 80%;
+border-radius: 1rem;
+}
+.about_details{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+.about_information{
+    margin-top: 2rem;
+}
+.infobox{
+    margin-bottom: 1rem;
+}
+.infobox span{
+    margin-left: 1rem;
+}
+#skills{
+    margin: 5% 8% 0 8%;
+}
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.skill-img img{
+    width: 85%;
+    padding-left: 4rem;
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 5rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.htmlbar{
+    width: 95%;
+    background-color: orange;
+}
+.cssbar{
+    width: 88%;
+    background-color: orange;
+}
+.jsbar{
+    width: 89%;
+    background-color: orange;
+}
+.reactbar{
+    width: 85%;
+    background-color: orange;
+}
+.iconset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  margin-top: %; */
+    font-size: 40px;
+}
+.icon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid rgb(94, 14, 199); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
+}
+.icon i{
+    color: rgb(0, 0, 0);
+}
+.icon:hover{
+    background-image:linear-gradient( to bottom right, rgb(255, 0, 251) , rgb(0, 255, 102));
+}
+.icon:hover i{
+    color: white;
+    animation: shake 0.8s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(20deg);
+    }
+    20%{
+        transform: rotate(-20deg);
+    }
+    30%{
+        transform: rotate(20deg);
+    }
+    40%{
+        transform: rotate(-20deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    60%{
+        transform: rotate(-20deg);
+    }
+    70%{
+        transform: rotate(20deg);
+    }
+    80%{
+        transform: rotate(-20deg);
+    }
+    90%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+
+}
+footer{
+    margin: 3rem 0px;
+    
+
+}
+.uparrow{
+   
+    float: right;
+    background-image: linear-gradient(to bottom right,rgb(255, 0, 251) , rgb(0, 255, 102) );
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
